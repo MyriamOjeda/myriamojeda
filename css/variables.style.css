@@ -1,0 +1,36 @@
+/* variables */
+:root {
+    --mi-color-rojo: red;
+    font-size: 16px;  /* por defecto es 1rem */
+}
+header {
+    font-size: 18px;
+}
+h1 {
+    font-size: 3rem;
+    color: var(--mi-color-rojo) ;
+}
+
+/* media query: imprimir la pantalla */
+@media print {
+    header {
+        display: flex;
+        border: 1px solid black;
+        background-color: cadetblue;
+        justify-content: center;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+/* bootstrap */

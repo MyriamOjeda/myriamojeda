@@ -1,10 +1,14 @@
-alert('hola mundo desde variables.js')
+/*variable*/
 
+/*numeros*/
 let edad = 36;
-alert(edad);
-
+/*muestro la variable*/
+console.log (edad);
+/*cambio el valor*/
 edad = 45;
-alert(edad);
+alert (edad);
 
-const dni = '12468759';
-
+/*constante: (cadena, string) entre ' ' o " " */
+const dni = '123456789';
+/* una constante no se puede cambiar*/
+dni = '987654321';
