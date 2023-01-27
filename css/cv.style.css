@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.cv {
+    background-color: beige;
+}  
+.personal {
+    padding: 10px;
+}
+.personal_left {
+    display: inline-block;
+    margin: 5px;
+    width: 60%;
+}
+.personal_right {
+    display: inline-block;
+    margin: 5px;
+    width: 35%;
+}
+.personal_left h1 {
+    color: orangered;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.personal_left_datos {
+    color: brown;
+}
+.personal_right img {
+    padding-top: 25px;
+    width: 70%;
+    border-radius: 10%;
+}
+.personal hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#l1 {
+    height: 5px;
+    background-color: pink;
+}
+#l2 {
+    height: 15px;
+    background-color: orange;
+}
+#l3 {
+    height: 10px;
+    background-color: gray;
+}

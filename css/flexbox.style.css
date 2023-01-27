@@ -1,0 +1,10 @@
+img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+.flexbox-container {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
